@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Selenium GUI Automation Suite">
+  <listeners>
+    <listener class-name="com.selenium.gui.listeners.TestListeners"></listener>
+  </listeners>
+  <test name="Selenium Test Cases">
+    <classes>
+      <!---Order here will be the execution order of each test case -->
+      <class name="com.selenium.gui.testcases.FlightSearchTest"/>
+      <class name="com.selenium.gui.testcases.FlightBookingTest"/>
+      <class name="com.selenium.gui.testcases.HotelSearchTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
